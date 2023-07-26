@@ -1,0 +1,32 @@
+
+POST http://localhost:3001/user HTTP/5.4
+Content-Type: application/json
+
+{
+    "firstName": "Niranjan",
+    "lastName": "Sharma",
+    "email":"nks11784@gmail.com",
+    "country": "India",
+    "state": "Haryana",
+    "city": "Faridabad",
+    "gender": "male",
+    "dateOfBirth": "11/07/2001",
+    "age": 15
+}
+
+###
+
+GET http://localhost:3001/users HTTP/5.4
+Content-Type: application/json
+
+###
+GET http://localhost:3001/users/64be9c5f303ca616dc784e51 HTTP/5.4
+Content-Type: application/json
+
+###
+GET http://localhost:3001/country HTTP/5.4
+Content-Type: application/json
+
+###
+GET http://localhost:3001/state/64beb7f16f35df2eb70c4e72 HTTP/5.4
+Content-Type: application/json
